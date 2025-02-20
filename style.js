@@ -1,13 +1,13 @@
 
 
-// let number = prompt("Enter a number to see it is a multiple of 5")
+let number = prompt("Enter a number to see it is a multiple of 5")
 
-// if(number%5==0){
-//     console.log(number,"is multiple of 5")
-// }
-// else{
-//     console.log(number,"is not a multiple of 5")
-// }
+if(number%5==0){
+    console.log(number,"is multiple of 5")
+}
+else{
+    console.log(number,"is not a multiple of 5")
+}
 
 // let number = prompt("Enter a number to fing grades");
 // if(number<=100 && number>=90){
@@ -22,18 +22,18 @@
 //     console.log("F")
 // }
 
-// for(let i=0;i<=100;i++){
-//     if(i%2==0){
-//         console.log("i= ",i)
-//     }
-// }
+for(let i=0;i<=100;i++){
+    if(i%2==0){
+        console.log("i= ",i)
+    }
+}
 
-// let guessingNum = 25
-// let userNum = prompt("Enter a number for guessing")
-// while(userNum!=guessingNum){
-//     prompt("wrong number please try again...")
-// }
-// console.log("User has guess properly")
+let guessingNum = 25
+let userNum = prompt("Enter a number for guessing")
+while(userNum!=guessingNum){
+    prompt("wrong number please try again...")
+}
+console.log("User has guess properly")
 // let name = 'Aftab Siddique';
 // let lastname="Siddique"; 
 // let str = `Ceo of Apna Javascript is ${name}`;
